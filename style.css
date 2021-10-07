@@ -1,0 +1,158 @@
+*, 
+*::after, 
+*::before
+{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'Nunito Sans','Open sans',sans-serif;
+}
+
+.main_div 
+{
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  height : 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://source.unsplash.com/1700x900/?cloudy');
+}
+
+.card
+{
+  background:#111111c5;
+  width: 43rem;
+  color : whitesmoke;
+  padding : 2.4rem;
+  align-items: center;
+  border-color: white;
+  border-radius: 3rem;
+  box-shadow: 0.5rem 0.3rem 0.8rem 0.5rem rgba(0, 0, 0, 0.246);
+}
+
+.search
+{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  font-size:1.33rem;
+}
+
+button {
+  margin: 1rem;
+  height: 3rem;
+  width: 3.5rem;
+  border-radius: 50%;
+  border: none;
+  outline:none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  }
+
+.search-bar 
+{
+  border: none;
+  outline: none;
+  padding: 0.4rem 1.1rem;
+  border-radius: 5rem;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: "system-ui";
+  font-size: 1.33rem;
+  width: calc(100% - 2rem);
+  height: 2.9rem;
+  transition: 0.2s ease-in-out;
+}
+
+.search-bar:hover
+{
+  background:white;
+  color:black;
+}
+
+button:hover 
+{
+  background: #7c7c7c6b;
+}
+
+.flex 
+{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-weight:500;
+  font-size: 1.8rem;
+  letter-spacing: 0.08rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.icon 
+{
+  background: rgba(241, 237, 237, 0.89);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.description 
+{
+  margin-left: 1.3rem;
+}
+  
+.info
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather {
+  display: grid;
+  margin-left: 0.5rem;
+  height : 22rem;
+}
+
+.city, .temp
+{
+  font-size:1.9rem;
+  font-weight: 600;
+  letter-spacing: 0.15rem;
+}
+
+.humidity,.windspeed,.visibility
+{
+  margin-top: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.06rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.daystartend
+{
+  padding: 0.3rem;
+  margin-top: 5rem;
+  margin-left:0.7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sunrise, .sunset
+{
+  font-size: 1.25rem;
+  font-weight: 100;
+  letter-spacing: 0.04rem;
+  margin-bottom: 1rem;
+}
+
+.daydetails
+{
+  font-weight: 500;
+  font-size: 1.55rem;
+  margin-bottom: 1.5rem;
+}
